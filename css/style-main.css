@@ -7079,3 +7079,26 @@ blockquote p {
   height: 42px;
   margin-right: 10px;
 }
+/* All form inputs */
+#contactUsForm input,
+#contactUsForm textarea {
+  border: 1px solid #007bff;
+  color: #007bff;
+  opacity: 1;
+
+}
+
+/* Placeholder color */
+#contactUsForm input::placeholder,
+#contactUsForm textarea::placeholder {
+  color: #007bff;
+  opacity: 0.6;
+}
+
+/* Focus effect */
+#contactUsForm input:focus,
+#contactUsForm textarea:focus {
+  border-color: #0056d2;
+  outline: none;
+  box-shadow: none;
+}
